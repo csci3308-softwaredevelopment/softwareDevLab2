@@ -34,4 +34,4 @@ grep -E '@' $fileName | grep -E -v '@geocities.com' > email_results.txt
 
 #Problem 3.5 Code:
 #list all of the lines that match a command-line regular expression and store the results in command_results.txt
-grep $1 $fileName > command_results.txt
+grep $1 $fileName  > command_results.txt
