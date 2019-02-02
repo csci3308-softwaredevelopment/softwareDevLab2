@@ -15,9 +15,8 @@ grep $regularExp $fileName
 
 #Problem 3.1 Code:
 #counting the number of phone numbers in regex_practice.txt
-grep -c '\(\(([0-9]\{3\})\|[0-9]\{3\}\)[ -]\?\)\{2\}[0-9]\{4\}' $fileName
+grep -c '[0-9]\{3\}-[0-9]\{3\}-[0-9]\{4\}'  $fileName
 	#-c counts the number of occurences
-	#the regex expression finds expressions of length 10 with numbers 0-9
 
 #Problem 3.2 Code:
 #count the number of emails
